@@ -1,7 +1,7 @@
 package br.com.alura.comex;
 
 public class EnderecoCliente {
-    public static class Endereco {
+    public static class EnderecoCli {
         private String rua;
         private String numero;
         private String bairro;
@@ -9,7 +9,7 @@ public class EnderecoCliente {
         private String estado;
         private String cep;
 
-        public Endereco(String rua, String numero, String bairro, String cidade, String estado, String cep) {
+        public EnderecoCli(String rua, String numero, String bairro, String cidade, String estado, String cep) {
             this.rua = rua;
             this.numero = numero;
             this.bairro = bairro;
@@ -85,9 +85,9 @@ public class EnderecoCliente {
         private String email;
         private String profissao;
         private String telefone;
-        private EnderecoCliente.Endereco endereco;
+        private EnderecoCliente.EnderecoCli endereco;
 
-        public Cliente(String nome, String cpf, String email, String profissao, String telefone, EnderecoCliente.Endereco endereco) {
+        public Cliente(String nome, String cpf, String email, String profissao, String telefone, EnderecoCliente.EnderecoCli endereco) {
             this.nome = nome;
             this.cpf = cpf;
             this.email = email;
@@ -136,11 +136,11 @@ public class EnderecoCliente {
             this.telefone = telefone;
         }
 
-        public EnderecoCliente.Endereco getEndereco() {
+        public EnderecoCliente.EnderecoCli getEndereco() {
             return endereco;
         }
 
-        public void setEndereco(EnderecoCliente.Endereco endereco) {
+        public void setEnderecoCli(EnderecoCliente.EnderecoCli endereco) {
             this.endereco = endereco;
         }
 

@@ -15,7 +15,7 @@ public class ProdutoSerie {
 
     public static void main(String[] args) {
         ProdutoSerie novaSerie = criarSerieTV();
-        System.out.println("Série de TV criada: " + novaSerie.getNome());
+        System.out.println("Série: " + novaSerie.getNome());
     }
 
     public static ProdutoSerie criarSerieTV() {

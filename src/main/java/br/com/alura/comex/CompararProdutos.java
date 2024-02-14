@@ -60,7 +60,7 @@ public class CompararProdutos implements Comparable<CompararProdutos> {
         } else if (resultadoComparacao > 0) {
             System.out.println(dvdOutlander.getTitulo() + " foi lançado depois de " + dvdOrphanBlack.getTitulo());
         } else {
-            System.out.println("Ambos os DVDs foram lançados no mesmo ano");
+            System.out.println("As duas séries foram lançadas no mesmo ano");
         }
     }
 }

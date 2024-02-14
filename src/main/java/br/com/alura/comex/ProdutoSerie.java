@@ -23,11 +23,11 @@ public class ProdutoSerie {
         String nome;
 
         do {
-            System.out.print("Digite o nome da série de TV: ");
+            System.out.print("Digite o nome da série: ");
             nome = scanner.nextLine().trim();
 
             if (nome.isEmpty()) {
-                System.out.println("O nome é obrigatório. Tente novamente.");
+                System.out.println("O nome da série é obrigatório. Tente novamente.");
             }
 
         } while (nome.isEmpty());
